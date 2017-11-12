@@ -1,0 +1,234 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "http://jsonschema.net",
+  "required":false,
+  "properties":{
+    "data": {
+      "type":"array",
+      "id": "http://jsonschema.net/data",
+      "required":false,
+      "items":
+      {
+        "type":"object",
+        "id": "http://jsonschema.net/data/0",
+        "required":false,
+        "properties":{
+          "external_id": {
+            "type":"number",
+            "id": "http://jsonschema.net/data/0/external_id",
+            "required":false
+          },
+          "id": {
+            "type":"number",
+            "id": "http://jsonschema.net/data/0/id",
+            "required":false
+          },
+          "pictures": {
+            "type":"object",
+            "id": "http://jsonschema.net/data/0/pictures",
+            "required":false,
+            "properties":{
+              "105x105": {
+                "type":"string",
+                "id": "http://jsonschema.net/data/0/pictures/105x105",
+                "required":false
+              },
+              "105x85": {
+                "type":"string",
+                "id": "http://jsonschema.net/data/0/pictures/105x85",
+                "required":false
+              },
+              "150x150": {
+                "type":"string",
+                "id": "http://jsonschema.net/data/0/pictures/150x150",
+                "required":false
+              },
+              "1600x520": {
+                "type":"string",
+                "id": "http://jsonschema.net/data/0/pictures/1600x520",
+                "required":false
+              },
+              "180x180": {
+                "type":"string",
+                "id": "http://jsonschema.net/data/0/pictures/180x180",
+                "required":false
+              },
+              "40x40": {
+                "type":"string",
+                "id": "http://jsonschema.net/data/0/pictures/40x40",
+                "required":false
+              },
+              "88x65": {
+                "type":"string",
+                "id": "http://jsonschema.net/data/0/pictures/88x65",
+                "required":false
+              },
+              "88x88": {
+                "type":"string",
+                "id": "http://jsonschema.net/data/0/pictures/88x88",
+                "required":false
+              },
+              "980x560": {
+                "type":"string",
+                "id": "http://jsonschema.net/data/0/pictures/980x560",
+                "required":false
+              },
+              "monochrome_logo": {
+                "type":"string",
+                "id": "http://jsonschema.net/data/0/pictures/monochrome_logo",
+                "required":false
+              },
+              "original": {
+                "type":"string",
+                "id": "http://jsonschema.net/data/0/pictures/original",
+                "required":false
+              }
+            }
+          },
+          "programs": {
+            "type":"array",
+            "id": "http://jsonschema.net/data/0/programs",
+            "required":false,
+            "items":
+            {
+              "type":"object",
+              "id": "http://jsonschema.net/data/0/programs/0",
+              "required":false,
+              "properties":{
+                "category": {
+                  "type":"object",
+                  "id": "http://jsonschema.net/data/0/programs/0/category",
+                  "required":false,
+                  "properties":{
+                    "external_id": {
+                      "type":"number",
+                      "id": "http://jsonschema.net/data/0/programs/0/category/external_id",
+                      "required":false
+                    },
+                    "id": {
+                      "type":"number",
+                      "id": "http://jsonschema.net/data/0/programs/0/category/id",
+                      "required":false
+                    },
+                    "title": {
+                      "type":"string",
+                      "id": "http://jsonschema.net/data/0/programs/0/category/title",
+                      "required":false
+                    }
+                  }
+                },
+                "description": {
+                  "type":["string", "null"],
+                  "id": "http://jsonschema.net/data/0/programs/0/description",
+                  "required":false
+                },
+                "end_timestamp": {
+                  "type":"number",
+                  "id": "http://jsonschema.net/data/0/programs/0/end_timestamp",
+                  "required":false
+                },
+                "end": {
+                  "type":"string",
+                  "id": "http://jsonschema.net/data/0/programs/0/end",
+                  "required":false
+                },
+                "external_id": {
+                  "type":"number",
+                  "id": "http://jsonschema.net/data/0/programs/0/external_id",
+                  "required":false
+                },
+                "genre": {
+                  "type":"object",
+                  "id": "http://jsonschema.net/data/0/programs/0/genre",
+                  "required":false,
+                  "properties":{
+                    "external_id": {
+                      "type":"number",
+                      "id": "http://jsonschema.net/data/0/programs/0/genre/external_id",
+                      "required":false
+                    },
+                    "id": {
+                      "type":"number",
+                      "id": "http://jsonschema.net/data/0/programs/0/genre/id",
+                      "required":false
+                    },
+                    "title": {
+                      "type":"string",
+                      "id": "http://jsonschema.net/data/0/programs/0/genre/title",
+                      "required":false
+                    }
+                  }
+                },
+                "grouped_programs": {
+                  "type":["null","integer"],
+                  "id": "http://jsonschema.net/data/0/programs/0/grouped_programs",
+                  "required":false
+                },
+                "object_id": {
+                  "type":["null","integer"],
+                  "id": "http://jsonschema.net/data/0/programs/0/object_id",
+                  "required":false
+                },
+                "pictures": {
+                  "type":"object",
+                  "id": "http://jsonschema.net/data/0/programs/0/pictures",
+                  "required":false
+                },
+                "schedule_string": {
+                  "type":["null","string"],
+                  "id": "http://jsonschema.net/data/0/programs/0/schedule_string",
+                  "required":false
+                },
+                "schedule_type": {
+                  "type":"string",
+                  "id": "http://jsonschema.net/data/0/programs/0/schedule_type",
+                  "required":false
+                },
+                "start_timestamp": {
+                  "type":"number",
+                  "id": "http://jsonschema.net/data/0/programs/0/start_timestamp",
+                  "required":false
+                },
+                "start": {
+                  "type":"string",
+                  "id": "http://jsonschema.net/data/0/programs/0/start",
+                  "required":false
+                },
+                "title": {
+                  "type":"string",
+                  "id": "http://jsonschema.net/data/0/programs/0/title",
+                  "required":false
+                },
+                "virtual_object_id": {
+                  "type":"string",
+                  "id": "http://jsonschema.net/data/0/programs/0/virtual_object_id",
+                  "required":false
+                },
+                "year": {
+                  "type":["string","null"],
+                  "id": "http://jsonschema.net/data/0/programs/0/year",
+                  "required":false
+                }
+              }
+            }
+
+
+          },
+          "title": {
+            "type":"string",
+            "id": "http://jsonschema.net/data/0/title",
+            "required":false
+          }
+        }
+      }
+
+
+    },
+    "result": {
+      "type":"string",
+      "id": "http://jsonschema.net/result",
+      "required":false
+    }
+  }
+}
