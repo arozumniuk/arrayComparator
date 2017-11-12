@@ -32,9 +32,3 @@ mvn site
 
 - Then navigate to {project directory}/target/site/allure-maven-plugin.html and open this one in browser
 
-
-
-GuideLine for API tests:
-- took an example json
-- created DTO using generator
-- configured different tests 
